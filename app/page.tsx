@@ -135,6 +135,16 @@ const projects: Project[] = [
     breakdown: "Used mostly for those tiktokers who would upload a video like familiy guy or top 10 speed clips or whatever and just want english subtitles for viewer retension",
     monetaryGain: 6
   },
+  {
+    id: 13,
+    title: "Luffy.to",
+    description: "Anime Streaming Service",
+    difficulty: "Hard",
+    challenges: ["Large scale video hosting", "Not getting a cease and desist", "Finding the source of videos", "CLean UI"],
+    backendFrontendRatio: 70,
+    breakdown: "I've always wanted to build a large scale video streaming service for free, ideally anime because its awesome, ive seen a lot of services and I want to make one, warning, may be illegal.",
+    monetaryGain: 6
+  },
 ];
 type Project = {
   id: number
